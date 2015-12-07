@@ -1,0 +1,15 @@
+
+pt:
+  hello: "Olá, Rails!"
+  hello_flash: "Olá turma de Internacionalização de Software!"
+  greet_username: "Olá %{user}!"
+  time_message: "Agora são: "
+  thing_message: "Traga seu "
+  things_message: "Traga mais "  
+  funny_word: "material"
+  time:
+    am: ''
+    formats:
+      default: "%H:%M"
+    pm: ''
+  food: "Clique para sua comida típica"

@@ -1,0 +1,14 @@
+en:
+  hello: "Hello, Rails!"
+  hello_flash: "Hello Software I18n class!"
+  greet_username: "Hello %{user}!"
+  time_message: "Time now is: "
+  bring_one: "Bring your "
+  bring_more: "Bring more "
+  funny_word: "material"
+  time:
+    am: am
+    formats:
+      default: "%I:%M %p"  
+    pm: pm
+  food: "Click for your typical food"

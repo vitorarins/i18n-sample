@@ -1,0 +1,16 @@
+<%= link_to "English", root_path(locale: "en") %>
+<%= link_to "Português", root_path %>
+
+<h1><%=t :hello %></h1>
+<p><%= flash[:notice] %></p>
+
+<h2><%=t 'greet_username', user: "Vitor" %></h2>
+
+<p><%=t :time_message %><%= l Time.now %></p>
+
+
+<p><%=t :bring_one %><%= flash[:thing] %></p>
+<p><%=t :bring_more %><%= flash[:thing].pluralize(I18n.locale) %></p>
+
+
+<%= link_to I18n.t('food'), controller: "food", locale: I18n.locale %>
